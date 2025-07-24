@@ -1,2 +1,64 @@
-# .gitignore
+# Node.js dependencies
 node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional Next.js
+.next/
+
+# Optional Svelte
+.svelte-kit/
+
+# Optional TurboRepo
+turbo/
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debug logs
+*.tgz
+
+# Mac-specific system files
+Icon?
+
+# Optional testing snapshots
+__snapshots__/
+
+# Ignore dev keys/configs
+devs.js
